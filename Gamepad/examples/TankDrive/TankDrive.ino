@@ -32,7 +32,7 @@ void setup() {
   gamepad.begin();
 
   // 3. (Optional) Invert one motor so they spin the same way
-  prizm.setMotorInvert(1, 1); // Invert Motor 1
+  prizm.setMotorInvert(2, 1); // Invert Motor 2
 }
 
 void loop() {
@@ -44,7 +44,7 @@ void loop() {
   int rightPower = gamepad.readAxis(GAMEPAD_AXIS_RIGHT_Y);
 
   // 3. Send power to the motors
-  prizm.setMotorPowers(leftPower, rightPower);
+  prizm.setMotorPowers(rightPower, leftPower);
 
   // 4. (Optional) Print values to the Serial Monitor for debugging
   Serial.print("Left Y: ");
