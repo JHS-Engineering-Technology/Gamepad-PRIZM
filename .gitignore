@@ -42,3 +42,7 @@
 
 # Ignore all zip files
 *.zip
+
+# VS Code / PlatformIO
+.vscode/
+*.code-workspace

@@ -6,9 +6,9 @@ An Arduino IDE Ready .zip file RELEASE for student assignments. Includes the Tan
 A simple, hardware-abstracted Arduino library for reading a TETRIX RC receiver with a PRIZM controller. It handles all the signal processing (trim, deadband) and provides clean joystick values from **-100 to 100**.
 
 This library provides a default mapping for a common "tank drive" or "arcade drive" setup:
-* **Left Stick X-Axis:** Port 1
-* **Left Stick Y-Axis:** Port 2
-* **Right Stick Y-Axis:** Port 3
+* **Left  Stick X-Axis (TETRIX RECEIVER Ch4):** Port A1
+* **Left  Stick Y-Axis (TETRIX RECEIVER Ch2):** Port A2
+* **Right Stick Y-Axis (TETRIX RECEIVER Ch3):** Port A3
 
 ---
 
